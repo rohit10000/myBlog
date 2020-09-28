@@ -1,0 +1,21 @@
+.home{
+    height: 61vh;
+    background-color: white;
+    padding-top: 2vw;
+    padding-left: 5vw;
+}
+.home__web__react{
+    width: 45vw;
+    background-color: #61DAFA;
+    height: 4rem;
+    font-size: 2rem;
+    color: #131921;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.home__web__react:hover{
+    background-color: #ccc;
+    color: black;
+    box-shadow: 10px 10px 8px #888888;
+}

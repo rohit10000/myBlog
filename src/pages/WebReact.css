@@ -1,0 +1,21 @@
+.webReact{
+    height: 86vh;
+    display: flex;
+}
+.webReact__sidebar{
+    background-color: #F7F7F7;
+    width: 20vw;
+    height: 86vh;
+    overflow: auto;
+    padding: 2vh;
+}
+.webReact__sidebar__title{
+    margin-top: 2vh;
+    font-size: 20px;
+    font-weight: 5          ;
+    line-height: 25px;
+    color: #6D6D6D;
+}
+.webReact__content{
+    width: 80vw;
+}

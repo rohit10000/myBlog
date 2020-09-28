@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    padding-bottom: 2vh;
+    padding-top: 4vh;
+    background-color: #232F3E;
+    height: 25vh;
+    /*flex-wrap: wrap;*/
+}
+.footer__link{
+    text-decoration: none!important;
+    color: #D1D2D3;
+    padding-left: 50px;
+}
+.footer__option{
+    font-weight: lighter;
+    font-size:14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
