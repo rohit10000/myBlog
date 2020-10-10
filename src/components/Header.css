@@ -17,3 +17,16 @@
     font-size: 2.5rem;
     color: #61DAFA;
 }
+@media screen and (max-width: 1024px){
+
+    .header__logo{
+        height: 8vh;
+        padding-left: 3vw;
+    }
+    .header__title{
+        padding-left: 6vw;
+        font-weight: lighter;
+        font-size: 1rem;
+        color: #61DAFA;
+    }
+}

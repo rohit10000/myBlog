@@ -8,25 +8,27 @@ import WebReact from "./pages/WebReact";
 
 function App() {
   return (
-    <div className="app">
+
       <Router>
-          <Switch>
+          <div className="app">
+              <Switch>
 
-              <Route path="/docs/web-reactjs">
+                  <Route path="/docs/web-reactjs">
+                      <Header/>
+                      <WebReact/>
+                      <Footer/>
+                  </Route>
+
+                <Route path="/">
                   <Header/>
-                  <WebReact/>
+                  <Home/>
                   <Footer/>
-              </Route>
+                </Route>
 
-            <Route path="/">
-              <Header/>
-              <Home/>
-              <Footer/>
-            </Route>
-
-          </Switch>
+              </Switch>
+            </div>
       </Router>
-    </div>
+
   );
 }
 

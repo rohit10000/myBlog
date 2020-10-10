@@ -1,0 +1,10 @@
+.postTitle{
+    margin: 1vh 0vw 2vh 0vw;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+@media screen and (max-width: 1024px){
+    .postTitle{
+        font-size: 3rem;
+    }
+}

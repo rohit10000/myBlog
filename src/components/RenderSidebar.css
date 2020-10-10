@@ -1,0 +1,31 @@
+.renderSidebar{
+    background-color: lightgray;
+    width: 20vw;
+    height: 100vh;
+    overflow: auto;
+    padding: 2vh;
+}
+.renderSidebar__title{
+    margin-top: 2vh;
+    font-size: 20px;
+    font-weight: 5          ;
+    line-height: 25px;
+    color: #6D6D6D;
+}
+.renderSidebar__options{
+    line-height: 10px;
+}
+.renderSidebar__options > p{
+    cursor: pointer;
+    height: 3vh;
+    padding: 6px 3px 1px 6px;
+    font-family: cursive;
+    font-size: large;
+    font-weight: lighter;
+}
+@media screen and (max-width: 1024px) {
+    .renderSidebar{
+        width: 10vw;
+        padding: 0vh;
+    }
+}

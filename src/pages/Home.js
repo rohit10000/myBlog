@@ -7,10 +7,9 @@ function Home(){
     const history = useHistory();
     return(
         <div className={"home"}>
-            <button className={"home__web__react btn"} onClick={history.push('/docs/web-reactjs')}>
+            <button className={"home__web__react btn"} onClick={() => history.push('/docs/web-reactjs')}>
                 Frontend Development with react
             </button>
-
         </div>
 
     )

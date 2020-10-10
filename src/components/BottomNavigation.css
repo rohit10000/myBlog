@@ -1,0 +1,28 @@
+.bottomNavigation{
+    display: flex;
+    background-color: #282C34;
+    height: 14vh;
+    padding-top: 2vh;
+}
+.bottomNavigation__left{
+    padding-left: 2vw;
+    flex: 1;
+}
+.bottomNavigation__right{
+    padding-right: 2vw;
+
+}
+.bottomNavigation__label{
+    color: #54C9FA;
+}
+.bottomNavigation__title{
+    color: floralwhite;
+    cursor: pointer;
+    font-size: x-large;
+    font-style: italic;
+}
+@media screen and (max-width: 1024px){
+    .bottomNavigation__title{
+        font-size: small;
+    }
+}
