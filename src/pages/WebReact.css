@@ -1,15 +1,88 @@
 .WebReact{
     display: flex;
-    height: 100vh;
-}
-.WebReact__left{
-    height: 100vh;
-    padding-bottom: 14vh;
-}
-.WebReact__right{
-    height: 100vh;
-}
-.WebReact__right__content{
     height: 86vh;
 }
+.WebReact__sidebar{
+    position: absolute;
+    width: 20vw;
+    background-color: lightgrey;
+    height: 86vh;
+    left: -16vw;
+    z-index: 1;
+    transition: all 800ms linear;
+}
+.WebReact__sidebar__toggle-btn{
+    position: absolute;
+    left: 17vw;
+    cursor: pointer;
+}
+.WebReact__sidebar__toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: gray;
+    margin: 4px 0px;
 
+}
+.WebReact__sidebar__content{
+    height: 85vh;
+    overflow: auto;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+.WebReact__sidebar__content__title{
+    margin-top: 2vh;
+    font-size: 20px;
+    font-weight: 5;
+    line-height: 25px;
+    color: #6D6D6D;
+    padding-right: 3vw;
+
+}
+.WebReact__sidebar__content__options > p{
+    cursor: pointer;
+    font-family: cursive;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.WebReact__content{
+    position: absolute;
+    width: 96vw;
+    background-color: #61DAFA;
+    left: 4vw;
+    height: 86vh;
+    overflow: auto;
+    padding: 0px 1vw;
+    transition: all 800ms linear;
+}
+.WebReact__content__body{
+    min-height: 72vh;
+}
+.active-sidebar{
+    left: 0;
+}
+.active-content{
+    left: 20vw;
+    width: 80vw;
+}
+@media screen and (max-width: 1024px){
+    .WebReact__sidebar{
+        left: 0;
+        width: 60vw;
+    }
+    .WebReact__content{
+        left: 10vw;
+        width: 90vw;
+        padding: 0vw 2vw;
+    }
+    .WebReact__sidebar__toggle-btn{
+        left: 50vw;
+    }
+    .active-sidebar-toggle-btn{
+        left: 1vw;
+    }
+    .active-sidebar{
+        left: -49vw;
+    }
+}
