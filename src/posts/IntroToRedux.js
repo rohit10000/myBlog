@@ -69,7 +69,7 @@ function IntroToRedux(){
             <PostText text={["","At last, we are done setting up redux store. Happy coding!"]}/>
 
             <LinkDisplay text={"See to the commit for changes"}
-                         src={"https://github.com/rohit10000/Full-stack-development-Blog/commit/333e05d14e67bb58ecfdf9388e0fdb33f32d96da"}/>
+                         src={"https://github.com/rohit10000/coursera-full-stack-dev/commit/c480e314333510100b576db8840c14cb80e60c72"}/>
 
         </div>
     )

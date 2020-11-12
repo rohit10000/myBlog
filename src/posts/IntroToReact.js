@@ -65,13 +65,13 @@ function IntroToReact(){
                 "And a few changes will make your app ready. "]}/>
 
                 <LinkDisplay text={"Just see to the commit for changes"}
-                src={"https://github.com/rohit10000/Full-stack-development-Blog/commit/156dc77f197899898a16277d77abc95b6441b099"}/>
+                src={"https://github.com/rohit10000/coursera-full-stack-dev/commit/7e95d9ad8da8019d51ed134da843eb5ac677bfd6"}/>
 
                 <PostSubHeading subHeading={"Configure your React app to use bootstrap"}/>
                 <PostText text={['See to the changes from the previous commit to the new commit named "configuring react app to use bootstrap"']}/>
 
                 <LinkDisplay text={"See to the commit for changes"}
-                src={"https://github.com/rohit10000/Full-stack-development-Blog/commit/a6c31eb8d3df2bbc4dc0a8c551786780eefea50d"}/>
+                src={"https://github.com/rohit10000/coursera-full-stack-dev/commit/156dc77f197899898a16277d77abc95b6441b099"}/>
 
                 <PostText text={["Finally, let's learn another jargon, JSX.",
                 "It stands for Javascript XML(Extensible Markup Language). " +
